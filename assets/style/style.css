@@ -1,0 +1,33 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+section{
+    padding-top: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+section input{
+    width: 50%;
+}
+
+section button{
+    margin-top: 20px;
+    padding: 8px 25px;
+    border: none;
+    border-radius: 10px;
+    background-color: aquamarine;
+}
+
+section div{
+    text-align: center;
+}
+
+section div p{
+    padding: 10px 0;
+}
