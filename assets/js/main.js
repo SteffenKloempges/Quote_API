@@ -1,8 +1,8 @@
+//selecting interface
+
 let button = document.querySelectorAll('button')
 let input = document.querySelector('input')
 let output = document.querySelectorAll('div')
-
-console.log(button)
 
 const header = {
     "Authorization": "Token token=3af214013b4786a6a42d922e78e628e3"
@@ -24,6 +24,7 @@ button[0].addEventListener('click', () => {
 //get random quote
 
 button[1].addEventListener('click', () => {
+    input.value = ""
     fetch(`https://favqs.com/api/qotd`)
         .then(response => response.json())
         .then(json => {
